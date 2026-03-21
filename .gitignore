@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+data/raw/*.csv  # We'll commit a sample, but ignore future downloads
+*.log
+.DS_Store
+.ipynb_checkpoints/
