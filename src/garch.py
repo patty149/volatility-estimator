@@ -27,7 +27,8 @@ def fit_garch_forecast(df, forecast_horizon=30):
     # Plot
     plt.figure(figsize=(12, 6))
     plt.plot(returns.tail(252).index, returns.tail(252), label='Returns', alpha=0.7)
-    plt.plot(returns.tail(30).index, vol_forecast[-1], 'r-', label='GARCH Forecast', linewidth=3)
+    plt.plot(returns.tail(30).index, np.full(30, vol_forecast[-1]), 
+         'r-', label='GARCH Forecast (constant)', linewidth=3)
     plt.title('GARCH(1,1) Volatility Forecast')
     plt.legend()
     plt.savefig('reports/figures/garch_forecast.png', dpi=300)
