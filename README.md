@@ -253,5 +253,3 @@ This project demonstrates:
 - **Product thinking**: multi‑tab dashboard tailored for risk teams (controls, charts, tables).  
 - **Market understanding**: connects COVID, RBI policy, wars, and cross‑market linkages to volatility regimes.
 
-It is suitable as a **flagship project** for Master’s applications and roles in **risk, quant analytics, or product analytics** in Indian or global equity contexts.
-
